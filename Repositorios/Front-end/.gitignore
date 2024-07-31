@@ -1,0 +1,15 @@
+node_modules
+dist
+.pnp
+.yarnrc
+.pnp.cjs
+.pnp.loader.mjs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/install-state.gz
+.env

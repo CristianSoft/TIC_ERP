@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "importHelpers": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noResolve": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "allowJs": false,
+    "typeRoots": ["./node_modules/@testing-library", "./node_modules/@types", "./node_modules"],
+    "types": ["jest", "vite/client"]
+  },
+  "include": ["src/**/*", "vite.config.mts", "test/**/*"]
+}
